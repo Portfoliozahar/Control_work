@@ -81,10 +81,10 @@ sudo dpkg -i mysql-apt-config_0.8.17-1_all.deb
 #### Команды SQL с 7 по 12 :  7 В подключённом MySQL репозитории создать базу данных “Друзья человека”
 
 docker run --name myadmin -d --link mysql:db -p 8080:80 phpmyadmin/phpmyadmin
-
+```
 CREATE DATABASE Друзья_человека;
 ```
-```
+
 #### 8 Создать таблицы с иерархией из диаграммы в БД
 
 
