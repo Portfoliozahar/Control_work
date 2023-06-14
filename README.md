@@ -14,6 +14,7 @@
 но можно сделать и так
 
 sudo wget https://dev.mysql.com/get/mysql-apt-config_0.8.17-1_all.deb
+
 sudo dpkg -i mysql-apt-config_0.8.17-1_all.deb
 
 
@@ -236,4 +237,4 @@ SELECT 'Ослы' AS тип_животного, имя, команда, дата
 
 ```
 # Далее код python c 13 по 15
-https://github.com
+[https://github.com](https://github.com/Portfoliozahar/Control_work/tree/main/Pets)https://github.com/Portfoliozahar/Control_work/tree/main/Pets
