@@ -20,29 +20,50 @@ sudo dpkg -i mysql-apt-config_0.8.17-1_all.deb
 
 #### КОМАНДЫ UBUNTU 
  425  cat > "Домашние животные"
+ 
   426  cat > "Вьючные животные"
+  
   427  cat "Домашние животные" "Вьючные животные" > "Друзья человека"
+  
   428  cat "Друзья человека"
+  
   429  mkdir farm
+  
   430  mv "Друзья человека" farm/
+  
   431  history
+  
   432  docker run --name mysql -h mysql.com -e MYSQL_ROOT_PASSWORD=password -d mysql
+  
   433  docker exec -it mysql mysql -p
+  
   434  docker run --name myadmin -d --link mysql:db -p 8080:80 phpmyadmin/phpmyadmin
+  
   435  history
+  
   436  ll
+  
   437  wget https://github.com/dylanaraps/neofetch/releases/download/v7.1.0/neofetch_7.1.0-1_all.deb
+  
   438  sudo dpkg -i neofetch_7.1.0-1_all.deb
+  
   439  sudo dpkg --purge neofetch
+  
   440  wget http://archive.ubuntu.com/ubuntu/pool/universe/h/htop/htop_3.0.5-1ubuntu1_amd64.deb
+  
   441  wget http://archive.ubuntu.com/ubuntu/pool/universe/t/tree/tree_1.8.0-1_amd64.deb
+  
   442  sudo dpkg -i tree_1.8.0-1_amd64.deb
+  
   443  sudo apt-get install -f
+  
   444  sudo dpkg -r tree
+  
   445  sudo dpkg --purge tree
+  
   446  history
-  447  ls farm
-  448  history
+  
+ 
 
 
 #### 6 Нарисовать диаграмму
