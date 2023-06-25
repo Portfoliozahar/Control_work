@@ -258,5 +258,5 @@ UNION ALL
 SELECT 'Ослы' AS тип_животного, имя, команда, дата_рождения FROM Ослы;
 
 ```
-# Далее код python c 13 по 15
+# Далее код Java c 13 по 15
 [https://github.com](https://github.com/Portfoliozahar/Control_work/tree/main/Pets)https://github.com/Portfoliozahar/Control_work/tree/main/Pets
